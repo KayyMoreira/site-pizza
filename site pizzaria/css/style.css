@@ -58,6 +58,10 @@ h1{
 
 }
 #apresentacao{
+    display: flex;
+    justify-content: space-between;
+    row-gap: 60px;
+    flex-wrap: wrap;
     width: 90%;
     max-width: 1500px;
     min-width: 320px;
@@ -95,5 +99,18 @@ p{
 .pizzas a{
     display: block;
     text-align: center;
-    background-color: rgba(178, 34, 34, 0.432);
+    background-color: rgba(26, 156, 15, 0.89);
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 60px;
+    text-shadow: 2px 2px #666;
+}
+footer{
+    text-align: center;
+    width: 100%;
+    background-color: rgba(82, 80, 77, 0.329);
+    font-weight: 600;
+    font-size: 12px;
 }
